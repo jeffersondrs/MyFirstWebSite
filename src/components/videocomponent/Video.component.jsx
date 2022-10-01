@@ -16,8 +16,7 @@ export default function Video() {
         />
       </video>
       <div className="w-[600px] h-80 p-3 bg-slate-600/70 flex flex-col items-center justify-center text-white">
-        <p className="text-center">
-          Seja bem vindo ao meu site portifólio, aqui tentarei expressar minhas
+        <p className="text-center">          Seja bem vindo ao meu site portifólio, aqui tentarei expressar minhas
           habilidades e mostrar meu trabalho na forma prática, pois venho
           estudando a algum tempo e quero ter uma oportunidade para contribuir
           em projetos e contribuir com a empresa em que eu estiver.
