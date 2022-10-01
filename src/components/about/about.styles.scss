@@ -1,0 +1,89 @@
+.typetext {
+    box-shadow: .1em 0 0 #ffffff;
+    width: 21ch;
+    overflow: hidden;
+    text-align: center;
+    text-overflow: ellipsis;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #fff;
+    white-space: nowrap;
+    border-radius: 0px;
+    animation: caret .5s step-end infinite alternate, type 2s steps(24, end) 1;
+}
+
+@keyframes type {
+    0% {
+        width: 0;
+    }
+}
+
+@keyframes caret {
+    50% {
+        box-shadow: .6em 0 0 transparent;
+    }
+}
+
+
+.scroling {
+    transition: ease-in-out;
+    animation: scroll 1.5s infinite;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-15px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.avatar {
+    animation: avatarAnimation 1s ease-in-out;
+}
+
+@keyframes avatarAnimation {
+    from {
+        transform: scale(0);
+        opacity: 0;
+    }
+
+    to {
+        transform: scale(100%);
+        opacity: 1;
+    }
+}
+
+.thisIsMe {
+    animation: myName 2s ease-in-out;
+}
+
+@keyframes myName {
+    0% {
+        transform: translateY(-450px);
+        opacity: 0;
+    }
+
+    25% {
+        transform: translateY(50px);
+    }
+
+    50% {
+        transform: translateY(-20px);
+    }
+
+    75% {
+        transform: translateY(50px);
+    }
+
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+
+}

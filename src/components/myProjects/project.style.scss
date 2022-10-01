@@ -1,0 +1,11 @@
+.repos{
+    animation: linkRepos 1s infinite ease-in-out;
+}
+@keyframes linkRepos {
+    from{
+        color: rgb(255, 255, 255);
+    }
+    to{
+        color: rgb(0, 0, 158);
+    }
+}

@@ -1,0 +1,11 @@
+.react-icon{
+ animation: iconReact infinite 10s ease-in-out;
+}
+@keyframes iconReact {
+    from{
+        transform: rotate(360deg);
+    }
+    to{
+        transform: rotate(0deg);
+    }
+}
