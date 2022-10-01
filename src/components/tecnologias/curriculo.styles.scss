@@ -1,0 +1,26 @@
+.setRight {
+    animation: rightSet infinite 1s ease-in-out;
+}
+
+@keyframes rightSet {
+    0% {
+        transform: translateX(20px);
+    }
+    50%{ transform: translateX(-20px);}
+    100% {
+        transform: translateX(20px);
+    }
+}
+
+.setLeft {
+    animation: leftSet infinite 1s ease-in-out;
+}
+@keyframes leftSet {
+    0% {
+        transform: translateX(20px);
+    }
+    50%{ transform: translateX(-20px);}
+    100% {
+        transform: translateX(20px);
+    }
+}

@@ -17,6 +17,7 @@
     "@mui/icons-material": "^5.10.6",
     "@mui/material": "^5.10.7",
     "@radix-ui/react-navigation-menu": "^1.0.0",
+    "file-saver": "^2.0.5",
     "html2canvas": "^1.4.1",
     "phosphor-react": "^1.4.1",
     "radix-ui": "file:radix-ui/react-popover@latest",
