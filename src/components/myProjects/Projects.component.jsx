@@ -3,7 +3,7 @@ import "./project.style.scss";
 export default function Project() {
   return (
     <div className="w-full h-full bg-slate-800">
-      <div className="flex flex-row bg-slate-400/30 m-1 p-5 justify-evenly items-center flex-wrap">
+      <div className="flex flex-row bg-sky-700/90 m-1 p-5 justify-evenly items-center flex-wrap">
         <a href="https://github.com/jeffersondrs/monster-rolodex">
           <img
             src="https://raw.githubusercontent.com/jeffersondrs/StoreClothings/main/public/images/ezgif.com-gif-maker.gif"
@@ -12,7 +12,7 @@ export default function Project() {
           />
         </a>
         <div className="flex flex-col justify-center items-center w-[550px]">
-          <p className="text-white text-start text-xl">
+          <p className="text-white text-start text-xl m-2">
             Projeto em andamento, feito em react, utilizando tecnologias como:
           </p>
           <ul className="text-lg text-white">
@@ -28,7 +28,7 @@ export default function Project() {
           </p>
         </div>
       </div>
-      <div className="flex flex-row bg-slate-400/30 m-1 p-5 justify-evenly items-center flex-wrap">
+      <div className="flex flex-row bg-blue-800 m-1 p-5 justify-evenly items-center flex-wrap">
         <div className="flex flex-col justify-center items-center w-[550px]">
           <p className="text-white text-start text-xl">
             Projeto em React utilizando tencnologias:

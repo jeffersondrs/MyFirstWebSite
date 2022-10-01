@@ -10,3 +10,6 @@
   box-sizing: border-box;
   font-family: "Julius Sans One", sans-serif;
 }
+body {
+  background-color: black;
+}
