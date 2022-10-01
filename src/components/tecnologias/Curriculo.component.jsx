@@ -11,18 +11,20 @@ export default function Curriculum() {
     saveAs(Curriculo, "Jefferson Duarte.pdf");
   };
   return (
-    <div className="w-full flex flex-row items-center justify-evenly h-16">
-      <p className="text-white">
+    <div className="w-full flex flex-row items-center justify-evenly h-16 flex-wrap">
+      <p className="text-white text-center m-2">
         Faça Download do meu currículo clicando no botão ao lado
       </p>
+      <div className="flex flex-row">
       <HiOutlineChevronDoubleRight className="text-white setRight" />
       <button
-        className="bg-violet-900 text-white w-36 h-8 rounded-lg text-lg hover:scale-105 hover:shadow-lg"
-        onClick={saveFile}
+      className="bg-violet-900 text-white w-36 h-8 rounded-lg text-lg hover:scale-105 hover:shadow-lg"
+      onClick={saveFile}
       >
-        download
+      download
       </button>
       <HiOutlineChevronDoubleLeft className="text-white setLeft" />
+      </div>
     </div>
   );
 }
