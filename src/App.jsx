@@ -1,5 +1,4 @@
 import "./App.css";
-
 import { Routes, Route } from "react-router-dom";
 import Navegation from "./routes/navegation/Navegation.components";
 import About from "./components/about/About.component";
