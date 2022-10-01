@@ -1,4 +1,3 @@
-import { CgArrowLongDown } from "react-icons/cg";
 import About from "../../components/about/About.component";
 import Projects from "../../components/myProjects/Projects.component";
 import Curriculum from "../../components/tecnologias/Curriculo.component";
