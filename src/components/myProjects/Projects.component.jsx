@@ -12,7 +12,7 @@ export default function Project() {
           />
         </a>
         <div className="flex flex-col justify-center items-center w-[550px]">
-          <p className="text-white text-start text-xl m-2">
+          <p className="text-white text-start text-xl">
             Projeto em andamento, feito em react, utilizando tecnologias como:
           </p>
           <ul className="text-lg text-white">

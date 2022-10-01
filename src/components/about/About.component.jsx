@@ -5,8 +5,8 @@ export default function About() {
   return (
     <>
       <div className="flex flex-col">
-        <div className="w-full h-full bg-slate-900 text-white flex flex-row items-center justify-evenly p-20 flex-wrap">
-          <div className="h-full flex flex-col justify-evenly items-center w-[400px]">
+        <div className="w-full h-full bg-slate-900/90 text-white flex flex-row items-center justify-evenly p-20 flex-wrap">
+          <div className="h-full flex flex-col justify-evenly items-center w-[500px]">
             <h1 className="font-bold text-xl typetext m-4">
               Olá! Meu nome é Jefferson
             </h1>

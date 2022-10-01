@@ -3,20 +3,20 @@ import { SiJavascript, SiReact, SiTailwindcss } from "react-icons/si";
 
 export default function Video() {
   return (
-    <div className="body-container flex flex-row flex-wrap items-center h-full justify-center p-2">
+    <div className="body-container flex flex-row flex-wrap items-center h-[400px] justify-center p-2">
       <video
         autoPlay
         muted
         loop
-        className="absolute w-full h-full object-cover transfo z-[-1] blur-[2px]"
+        className="absolute w-full h-full object-cover transfo z-[-1] blur-[1px]"
       >
         <source
           src="https://static.videezy.com/system/resources/previews/000/018/948/original/ICON-VERSION8_1.mp4"
           type="video/mp4"
         />
       </video>
-      <div className="w-[600px] h-80 p-3 bg-slate-600/70 flex flex-col items-center justify-center text-white">
-        <p className="text-center">          Seja bem vindo ao meu site portifólio, aqui tentarei expressar minhas
+      <div className="w-[600px] h-80 p-3 bg-black/50 flex flex-col items-center justify-center text-white">
+        <p className="text-center xl:text-2xl lg:text-xl md:text-base sm:text-sm">  Seja bem vindo ao meu site portifólio, aqui tentarei expressar minhas
           habilidades e mostrar meu trabalho na forma prática, pois venho
           estudando a algum tempo e quero ter uma oportunidade para contribuir
           em projetos e contribuir com a empresa em que eu estiver.
