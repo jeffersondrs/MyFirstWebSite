@@ -15,10 +15,10 @@ export default function Curriculum() {
       <p className="text-white text-center m-2">
         Faça Download do meu currículo clicando no botão ao lado
       </p>
-      <div className="flex flex-row">
+      <div className="flex flex-row items-center justify-evenly">
       <HiOutlineChevronDoubleRight className="text-white setRight" />
       <button
-      className="bg-violet-900 text-white w-36 h-8 rounded-lg text-lg hover:scale-105 hover:shadow-lg"
+      className="bg-violet-900 text-white w-36 mx-5 h-8 rounded-lg text-lg hover:scale-105 hover:shadow-lg"
       onClick={saveFile}
       >
       download

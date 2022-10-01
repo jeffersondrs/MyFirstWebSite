@@ -4,11 +4,11 @@
 
 @keyframes rightSet {
     0% {
-        transform: translateX(20px);
+        transform: translateX(5px);
     }
-    50%{ transform: translateX(-20px);}
+    50%{ transform: translateX(-5px);}
     100% {
-        transform: translateX(20px);
+        transform: translateX(5px);
     }
 }
 
@@ -17,10 +17,10 @@
 }
 @keyframes leftSet {
     0% {
-        transform: translateX(20px);
+        transform: translateX(5px);
     }
-    50%{ transform: translateX(-20px);}
+    50%{ transform: translateX(-5px);}
     100% {
-        transform: translateX(20px);
+        transform: translateX(5px);
     }
 }
