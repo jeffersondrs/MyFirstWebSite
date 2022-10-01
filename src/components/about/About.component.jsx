@@ -7,7 +7,7 @@ export default function About() {
       <div className="flex flex-col">
         <div className="w-full h-full bg-sky-800 text-white flex flex-row items-center justify-evenly p-20 flex-wrap">
           <div className="h-full flex flex-col justify-evenly items-center w-[500px]">
-            <h1 className="font-bold text-xl typetext m-4">
+            <h1 className="font-bold text-xl typetext m-4 ">
               Olá! Meu nome é Jefferson
             </h1>
             <h2 className=" text-center">seja bem vindo ao meu portfolio</h2>
