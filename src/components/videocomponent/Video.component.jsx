@@ -46,7 +46,7 @@ export default function Video() {
         />
         <img
           src="https://www.vectorlogo.zone/logos/mongodb/mongodb-ar21.svg"
-          className="w-20 sm:w-10 md:w-12 lg:w-16 h-20 sm:h-10 md:h-12 lg:h-16 xl:h-20 "
+          className="w-24 sm:w-10 md:w-12 lg:w-16 h-20 sm:h-10 md:h-12 lg:h-16 xl:h-20 "
         />
         <img
           src="https://www.svgrepo.com/show/303205/html-5-logo.svg"
@@ -58,7 +58,7 @@ export default function Video() {
         />
         <img
           src="https://github.githubassets.com/images/modules/logos_page/Octocat.png"
-          className="w-20 sm:w-10 md:w-12 lg:w-16   h-20"
+          className="w-20 sm:w-8 md:w-12 lg:w-14   h-20 sm:h-8 md:h-12 lg:h-14"
         />
       </div>
     </div>

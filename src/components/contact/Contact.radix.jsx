@@ -1,5 +1,6 @@
 import React from "react";
 import { styled, keyframes } from "@stitches/react";
+import './contact.styles.scss'
 import * as NavigationMenuPrimitive from "@radix-ui/react-navigation-menu";
 import { CaretDownIcon } from "@radix-ui/react-icons";
 import { violet, mauve, indigo, purple, blackA } from "@radix-ui/colors";
@@ -64,9 +65,11 @@ const StyledList = styled(NavigationMenuPrimitive.List, {
   display: "flex",
   justifyContent: "center",
   backgroundColor: "white",
+  flexWrap: "wrap",
   padding: 4,
   borderRadius: 6,
   listStyle: "none",
+  width: "100vw",
   boxShadow: `0 2px 10px ${blackA.blackA7}`,
 });
 
@@ -329,6 +332,20 @@ export const NavigationMenuDemo = () => {
     <NavigationMenu>
       <NavigationMenuList>
         <NavigationMenuItem>
+          <NavigationMenuLink href="/">
+            <div className="flex flex-row justify-center items-center">
+              <div className="mx-2 ">Home</div>
+            </div>
+          </NavigationMenuLink>
+        </NavigationMenuItem>
+        <NavigationMenuItem>
+          <NavigationMenuLink href="/about">
+            <div className="flex flex-row justify-center items-center">
+              <div className="mx-2 ">About</div>
+            </div>
+          </NavigationMenuLink>
+        </NavigationMenuItem>
+        <NavigationMenuItem>
           <NavigationMenuTrigger>Social Midia</NavigationMenuTrigger>
           <NavigationMenuContent>
             <ContentList layout="one">
@@ -339,8 +356,11 @@ export const NavigationMenuDemo = () => {
               >
                 Adiciona la! <BsFacebook className="text-blue-600 w-6 h-6" />
               </ContentListItem>
-              <ContentListItem href="https://www.instagram.com/grinreborn/" title="Instagram">
-                Meu Instagram. <BsInstagram className="text-blue-600 w-6 h-6" />
+              <ContentListItem
+                href="https://www.instagram.com/grinreborn/"
+                title="Instagram"
+              >
+                Meu Instagram. <BsInstagram className="instagram w-6 h-6" />
               </ContentListItem>
               <ContentListItem
                 href="https://twitter.com/kalliadranoth"
@@ -358,22 +378,16 @@ export const NavigationMenuDemo = () => {
             <ContentList layout="two">
               <ContentListItem
                 title="Whatsapp"
-                href="https://api.whatsapp.com/send?phone=5521973152800"
+                href="https://wa.me/5521973152800"
               >
                 <BsWhatsapp className="text-green-500" />
               </ContentListItem>
-              <ContentListItem
-                title="Gmail"
-                href="jeffersonduarte@id.uff.br"
-              >
+              <ContentListItem title="Gmail" href="jeffersonduarte@id.uff.br">
                 E-mail para contato.
-                <SiGmail className="text-red-500"/>
+                <SiGmail className="text-red-500" />
               </ContentListItem>
-              <ContentListItem
-                title="Styling"
-                href="#"
-              >
-              In soon
+              <ContentListItem title="Styling" href="#">
+                In soon
               </ContentListItem>
               <ContentListItem
                 title="Animation"
@@ -381,18 +395,11 @@ export const NavigationMenuDemo = () => {
               >
                 In soon
               </ContentListItem>
-              <ContentListItem
-                title="Accessibility"
-                href="#"
-              >
-              In soon
-
+              <ContentListItem title="Accessibility" href="#">
+                In soon
               </ContentListItem>
-              <ContentListItem
-                title="Releases"
-                href="#"
-              >
-              In soon
+              <ContentListItem title="Releases" href="#">
+                In soon
               </ContentListItem>
             </ContentList>
           </NavigationMenuContent>
