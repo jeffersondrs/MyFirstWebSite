@@ -1,6 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom"
 import { styled, keyframes } from "@stitches/react";
-import './contact.styles.scss'
 import * as NavigationMenuPrimitive from "@radix-ui/react-navigation-menu";
 import { CaretDownIcon } from "@radix-ui/react-icons";
 import { violet, mauve, indigo, purple, blackA } from "@radix-ui/colors";
@@ -339,11 +339,13 @@ export const NavigationMenuDemo = () => {
           </NavigationMenuLink>
         </NavigationMenuItem>
         <NavigationMenuItem>
-          <NavigationMenuLink href="/about">
-            <div className="flex flex-row justify-center items-center">
-              <div className="mx-2 ">About</div>
-            </div>
-          </NavigationMenuLink>
+          <Link to="/about">
+            <NavigationMenuLink>
+              <div className="flex flex-row justify-center items-center">
+                <div className="mx-2 ">About</div>
+              </div>
+            </NavigationMenuLink>
+          </Link>
         </NavigationMenuItem>
         <NavigationMenuItem>
           <NavigationMenuTrigger>Social Midia</NavigationMenuTrigger>
