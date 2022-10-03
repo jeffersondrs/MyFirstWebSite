@@ -1,6 +1,6 @@
 .typetext {
     box-shadow: .1em 0 0 #ffffff;
-    width: 23ch;
+    width: 18ch;
     overflow: hidden;
     text-align: center;
     text-overflow: ellipsis;
@@ -65,20 +65,20 @@
 
 @keyframes myName {
     0% {
-        transform: translateY(-450px);
+        transform: translateY(-250px);
         opacity: 0;
     }
 
     25% {
-        transform: translateY(50px);
+        transform: translateY(30px);
     }
 
     50% {
-        transform: translateY(-20px);
+        transform: translateY(-15px);
     }
 
     75% {
-        transform: translateY(50px);
+        transform: translateY(30px);
     }
 
     100% {

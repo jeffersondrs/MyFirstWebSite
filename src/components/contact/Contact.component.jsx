@@ -11,7 +11,7 @@ import { SiGmail } from "react-icons/si";
 export default function Contact() {
   return (
     <>
-      <div className="w-full h-screen flex flex-row items-center justify-evenly p-5 flex-wrap">
+      <div className="w-screen h-screen flex flex-row items-center justify-evenly p-5 flex-wrap">
         <a href="https://github.com/jeffersondrs">
           <BsGithub className="text-white w-20 h-20" />
         </a>

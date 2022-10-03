@@ -3,7 +3,7 @@ import './about.styles.scss'
 
 export default function Avatar() {
   return (
-    <div className="w-64 cursor-pointer rounded-full">
+    <div className="w-64 cursor-pointer">
       <a href='https://github.com/jeffersondrs'>
         <BigHead
           accessory="none"

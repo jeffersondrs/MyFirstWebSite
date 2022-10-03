@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom"
+import { Link } from "react-router-dom";
 import { styled, keyframes } from "@stitches/react";
 import * as NavigationMenuPrimitive from "@radix-ui/react-navigation-menu";
 import { CaretDownIcon } from "@radix-ui/react-icons";
@@ -64,12 +64,13 @@ const StyledList = styled(NavigationMenuPrimitive.List, {
   all: "unset",
   display: "flex",
   justifyContent: "center",
+  alignItems: "center",
   backgroundColor: "white",
   flexWrap: "wrap",
-  padding: 4,
-  borderRadius: 6,
+  padding: "4px opx",
+  borderRadius: 0,
   listStyle: "none",
-  width: "100vw",
+  width: "100%",
   boxShadow: `0 2px 10px ${blackA.blackA7}`,
 });
 
@@ -284,10 +285,10 @@ const ContentListItemCallout = React.forwardRef(
       >
         <svg
           aria-hidden
-          width="38"
-          height="38"
+          width="50"
+          height="50"
           viewBox="0 0 25 25"
-          fill="white"
+          fill="black"
         >
           <path d="M12 25C7.58173 25 4 21.4183 4 17C4 12.5817 7.58173 9 12 9V25Z"></path>
           <path d="M12 0H4V8H12V0Z"></path>
@@ -301,7 +302,7 @@ const ContentListItemCallout = React.forwardRef(
             marginBottom: 7,
           }}
         >
-          Radix Primitives
+          Bem vindos ao meu site!
         </LinkTitle>
         <LinkText
           css={{
@@ -310,7 +311,7 @@ const ContentListItemCallout = React.forwardRef(
             lineHeight: 1.3,
           }}
         >
-          Unstyled, accessible components for React.
+          Essas são minhas redes sociais.
         </LinkText>
       </NavigationMenuLink>
     </ListItem>
@@ -334,7 +335,7 @@ export const NavigationMenuDemo = () => {
         <NavigationMenuItem>
           <NavigationMenuLink href="/">
             <div className="flex flex-row justify-center items-center">
-              <div className="mx-2 ">Home</div>
+              <div >Home</div>
             </div>
           </NavigationMenuLink>
         </NavigationMenuItem>
@@ -342,7 +343,7 @@ export const NavigationMenuDemo = () => {
           <Link to="/about">
             <NavigationMenuLink>
               <div className="flex flex-row justify-center items-center">
-                <div className="mx-2 ">About</div>
+                <div >About</div>
               </div>
             </NavigationMenuLink>
           </Link>
@@ -362,7 +363,7 @@ export const NavigationMenuDemo = () => {
                 href="https://www.instagram.com/grinreborn/"
                 title="Instagram"
               >
-                Meu Instagram. <BsInstagram className="instagram w-6 h-6" />
+                Meu Instagram. <BsInstagram className="instagram w-6 h-6 text-fuchsia-800" />
               </ContentListItem>
               <ContentListItem
                 href="https://twitter.com/kalliadranoth"
@@ -384,7 +385,7 @@ export const NavigationMenuDemo = () => {
               >
                 <BsWhatsapp className="text-green-500" />
               </ContentListItem>
-              <ContentListItem title="Gmail" href="jeffersonduarte@id.uff.br">
+              <ContentListItem title="Gmail" href="mailto:jeffersonduarte@gmail.com?subject=Olá, podemos conversar?">
                 E-mail para contato.
                 <SiGmail className="text-red-500" />
               </ContentListItem>
@@ -410,7 +411,7 @@ export const NavigationMenuDemo = () => {
         <NavigationMenuItem>
           <NavigationMenuLink href="https://github.com/jeffersondrs">
             <div className="flex flex-row justify-center items-center">
-              <div className="mx-2 ">Github</div>
+              <div>Github</div>
               <div>
                 <BsGithub className="text-black" />
               </div>
