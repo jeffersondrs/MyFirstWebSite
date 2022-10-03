@@ -4,7 +4,7 @@ import "./about.styles.scss";
 export default function About() {
   return (
     <>
-      <div className="w-full bg-sky-800 text-white justify-evenly flex flex-row p-6 flex-wrap-reverse">
+      <div className="w-full bg-sky-600 text-white justify-evenly flex flex-row p-6 flex-wrap-reverse">
 
         <div className="w-96 p-1 flex flex-col justify-center items-center">
           <h1 className="text-xl text-center typetext my-2">
