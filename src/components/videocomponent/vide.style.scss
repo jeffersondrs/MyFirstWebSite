@@ -1,11 +1,19 @@
-.react-icon{
- animation: iconReact infinite 5s ;
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
+
+.react-icon {
+    animation: iconReact infinite 5s;
+}
+
 @keyframes iconReact {
-    from{
+    from {
         transform: rotate(0deg);
     }
-    to{
+
+    to {
         transform: rotate(360deg);
     }
 }

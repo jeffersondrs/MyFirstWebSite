@@ -1,3 +1,8 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
 .repos{
     animation: linkRepos 1s infinite ease-in-out;
 }
@@ -8,4 +13,10 @@
     to{
         color: rgb(0, 0, 158);
     }
+}
+.background-projects{
+    background-image: url('https://images.unsplash.com/photo-1570284613060-766c33850e00?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }

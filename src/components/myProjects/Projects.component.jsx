@@ -2,8 +2,8 @@ import "./project.style.scss";
 
 export default function Project() {
   return (
-    <div className="w-full h-full bg-slate-800 mt-10">
-      <div className="flex flex-row bg-blue-800 p-5 justify-evenly items-center flex-wrap">
+    <div className="w-full h-full background-projects mt-10">
+      <div className="flex flex-row bg-blue-800/60 p-5 justify-evenly items-center flex-wrap">
         <a href="https://github.com/jeffersondrs/monster-rolodex">
           <img
             src="https://raw.githubusercontent.com/jeffersondrs/StoreClothings/main/public/images/ezgif.com-gif-maker.gif"
@@ -11,11 +11,11 @@ export default function Project() {
             className="h-64"
           />
         </a>
-        <div className=" flex flex-col justify-center items-center w-[550px]">
-          <p className="text-white text-start text-xl m-2">
+        <div className=" flex flex-col justify-center items-start text-white w-[550px]">
+          <p className="text-start text-lg underline m-2">
             Projeto em andamento, feito em react, utilizando tecnologias como:
           </p>
-          <ul className="text-lg text-white">
+          <ul className="text-lg ">
             <li>SASS e TailwindCss para e estilização</li>
             <li>Firebase para Autenticação e login de usuários</li>
             <li>REact-Icons para criação de icones de menus e botões</li>
@@ -28,9 +28,9 @@ export default function Project() {
           </p>
         </div>
       </div>
-      <div className="flex bg-blue-900 flex-row p-5 justify-evenly items-center flex-wrap">
+      <div className="flex bg-blue-900/50 flex-row p-5 justify-evenly items-center flex-wrap">
         <div className="flex flex-col justify-center items-start text-white w-[550px]">
-          <p className="text-start text-lg">
+          <p className="text-start text-lg m-2">
             Projeto em React utilizando tencnologias:
           </p>
           <p>TailwindCss para e estilização</p>

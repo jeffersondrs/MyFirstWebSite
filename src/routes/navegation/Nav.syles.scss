@@ -1,3 +1,9 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
 .container-nav {
     animation: translateNav 1s ease-in-out;
 }
@@ -7,6 +13,7 @@
         transform: translateY(-100px);
         opacity: 0;
     }
+
     100% {
         transform: translateY(0);
         opacity: 1;
