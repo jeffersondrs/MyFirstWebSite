@@ -1,3 +1,4 @@
+import Button from "../button/Button-component";
 import "./project.style.scss";
 
 export default function Project() {
@@ -22,9 +23,7 @@ export default function Project() {
             <li>react router dom para navegação entre componentes</li>
           </ul>
           <p className="repos">
-            <a href="https://github.com/jeffersondrs/StoreClothings">
-              repositório no gitHub
-            </a>
+            <Button text={'repositório'} link={'https://github.com/jeffersondrs/StoreClothings'}/>
           </p>
         </div>
       </div>
@@ -37,9 +36,7 @@ export default function Project() {
           <p>Utilização de hooks useState e UseEffect</p>
           <p>Comsumindo Api externa</p>
           <p className="repos">
-            <a href="https://github.com/jeffersondrs/monster-rolodex">
-              repositório no gitHub
-            </a>
+          <Button text={'repositório'} link={'https://github.com/jeffersondrs/monster-rolodex'}/>
           </p>
         </div>
         <a href="https://github.com/jeffersondrs/monster-rolodex">

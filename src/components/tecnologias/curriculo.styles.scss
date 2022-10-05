@@ -7,6 +7,11 @@
     animation: rightSet infinite 1s ease-in-out;
 }
 
+.download-buton{
+    background: rgb(17,9,152);
+background: linear-gradient(90deg, rgba(17,9,152,1) 0%, rgba(25,19,96,1) 46%, rgba(69,13,147,1) 83%);
+}
+
 @keyframes rightSet {
     0% {
         transform: translateX(5px);
