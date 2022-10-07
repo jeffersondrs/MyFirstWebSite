@@ -12,4 +12,7 @@ export const Button = styled.button`
     rgba(25, 19, 96, 1) 46%,
     rgba(69, 13, 147, 1) 83%
   );
+  &:hover {
+    transform: scale(1.05);
+  }
 `;

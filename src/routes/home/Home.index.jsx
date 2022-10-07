@@ -5,11 +5,11 @@ import Video from "../../components/videocomponent/Video.component"
 
 export default function Home() {
   return (
-    <>
+    <div>
       <About />
       <Video />
       <Projects />
       <Curriculum />
-    </>
+    </div>
   );
 }

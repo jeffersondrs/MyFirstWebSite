@@ -11,5 +11,11 @@
   font-family: "Julius Sans One", sans-serif;
 }
 body {
-  background-color: black;
+  background: rgb(8, 6, 37);
+  background: linear-gradient(
+    90deg,
+    rgba(8, 6, 37, 1) 23%,
+    rgba(31, 22, 130, 1) 56%,
+    rgba(39, 4, 87, 1) 94%
+  );
 }

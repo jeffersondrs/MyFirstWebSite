@@ -4,9 +4,9 @@ import "./about.styles.scss";
 export default function About() {
   return (
     <>
-      <div className="w-full about-background text-white justify-evenly flex flex-row p-6 flex-wrap-reverse">
+      <div className="w-full text-white justify-evenly flex flex-row p-6 flex-wrap-reverse">
 
-        <div className="w-96 p-1 flex flex-col justify-center items-center bg-slate-600/40 rounded-xl">
+        <div className="w-96 p-1 flex flex-col justify-center items-center rounded-xl">
           <h1 className="text-xl text-center typetext my-2">
            Meu nome é Jefferson
           </h1>
@@ -21,7 +21,7 @@ export default function About() {
         </div>
 
 
-        <div className="flex flex-col items-center justify-center p-2 mb-5 w-80 bg-slate-600/40 rounded-2xl">
+        <div className="flex flex-col items-center justify-center p-2 mb-5 w-80 rounded-2xl">
             <Avatar />
           <div className="thisIsMe">
             <p className="w-64 text-center">Esse sou eu, ou quase... 😜</p>

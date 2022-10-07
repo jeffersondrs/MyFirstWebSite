@@ -65,7 +65,7 @@ const StyledList = styled(NavigationMenuPrimitive.List, {
   display: "flex",
   justifyContent: "center",
   alignItems: "center",
-  backgroundColor: "white",
+  backgroundColor: "black",
   flexWrap: "wrap",
   padding: "4px opx",
   borderRadius: 0,
@@ -158,7 +158,7 @@ const StyledIndicator = styled(NavigationMenuPrimitive.Indicator, {
 const StyledArrow = styled("div", {
   position: "relative",
   top: "70%",
-  backgroundColor: "white",
+  backgroundColor: "black",
   width: 10,
   height: 10,
   transform: "rotate(45deg)",
@@ -176,7 +176,7 @@ const StyledViewport = styled(NavigationMenuPrimitive.Viewport, {
   transformOrigin: "top center",
   marginTop: 10,
   width: "100%",
-  backgroundColor: "white",
+  backgroundColor: "black",
   borderRadius: 6,
   overflow: "hidden",
   boxShadow:
@@ -236,12 +236,12 @@ const LinkTitle = styled("div", {
   fontWeight: 500,
   lineHeight: 1.2,
   marginBottom: 5,
-  color: violet.violet12,
+  color: violet.violet3,
 });
 
 const LinkText = styled("p", {
   all: "unset",
-  color: mauve.mauve11,
+  color: mauve.mauve1,
   lineHeight: 1.4,
   fontWeight: "initial",
 });
@@ -255,7 +255,7 @@ const ContentListItem = React.forwardRef(
         css={{
           padding: 12,
           borderRadius: 6,
-          "&:hover": { backgroundColor: mauve.mauve3 },
+          "&:hover": { backgroundColor: mauve.mauve9 },
         }}
       >
         <LinkTitle>{title}</LinkTitle>
@@ -328,7 +328,7 @@ const ViewportPosition = styled("div", {
   perspective: "2000px",
 });
 
-export const NavigationMenuDemo = () => {
+export const NavMenu = () => {
   return (
     <NavigationMenu>
       <NavigationMenuList>
@@ -429,4 +429,4 @@ export const NavigationMenuDemo = () => {
   );
 };
 
-export default NavigationMenuDemo;
+export default NavMenu;

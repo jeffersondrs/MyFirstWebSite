@@ -5,7 +5,7 @@ import Contato from "./Contact.radix";
 export default function Navegation() {
   return (
     <>
-    <div className="bg-white w-full flex flex-row items-center justify-center">
+    <div className="bg-black w-full flex flex-row items-center justify-center">
     <Contato />
     </div>
       <Outlet />
