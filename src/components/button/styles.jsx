@@ -6,11 +6,12 @@ export const Button = styled.button`
   height: 30px;
   border-radius: 8px;
   background: rgb(17, 9, 152);
+  background: rgb(67, 64, 254);
   background: linear-gradient(
     90deg,
-    rgba(17, 9, 152, 1) 0%,
-    rgba(25, 19, 96, 1) 46%,
-    rgba(69, 13, 147, 1) 83%
+    rgba(67, 64, 254, 1) 19%,
+    rgba(103, 90, 247, 1) 58%,
+    rgba(183, 135, 250, 1) 96%
   );
   &:hover {
     transform: scale(1.05);
