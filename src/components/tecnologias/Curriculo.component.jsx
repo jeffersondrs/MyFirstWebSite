@@ -12,7 +12,7 @@ export default function Curriculum() {
     saveAs(Curriculo, "Jefferson Duarte.pdf");
   };
   return (
-    <div className="w-full flex flex-row items-center justify-center h-20 flex-wrap">
+    <div className="w-full flex flex-row items-center justify-center h-20 flex-wrap download-container">
       <p className="text-white text-center my-2">
         Faça Download do meu currículo clicando no botão ao lado
       </p>
