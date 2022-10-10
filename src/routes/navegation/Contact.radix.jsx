@@ -82,9 +82,9 @@ const itemStyles = {
   lineHeight: 1,
   borderRadius: 4,
   fontSize: 15,
-  color: violet.violet11,
+  color: violet.violet1,
   "&:focus": { position: "relative", boxShadow: `0 0 0 2px ${violet.violet7}` },
-  "&:hover": { backgroundColor: violet.violet3 },
+  "&:hover": { backgroundColor: violet.violet12 },
 };
 
 const StyledTrigger = styled(NavigationMenuPrimitive.Trigger, {
@@ -255,7 +255,7 @@ const ContentListItem = React.forwardRef(
         css={{
           padding: 12,
           borderRadius: 6,
-          "&:hover": { backgroundColor: mauve.mauve9 },
+          "&:hover": { backgroundColor: mauve.mauve12 },
         }}
       >
         <LinkTitle>{title}</LinkTitle>
@@ -335,7 +335,7 @@ export const NavMenu = () => {
         <NavigationMenuItem>
           <NavigationMenuLink href="/">
             <div className="flex flex-row justify-center items-center">
-              <div >Home</div>
+              <div>Home</div>
             </div>
           </NavigationMenuLink>
         </NavigationMenuItem>
@@ -343,7 +343,7 @@ export const NavMenu = () => {
           <Link to="/about">
             <NavigationMenuLink>
               <div className="flex flex-row justify-center items-center">
-                <div >About</div>
+                <div>About</div>
               </div>
             </NavigationMenuLink>
           </Link>
@@ -363,7 +363,8 @@ export const NavMenu = () => {
                 href="https://www.instagram.com/grinreborn/"
                 title="Instagram"
               >
-                Meu Instagram. <BsInstagram className="instagram w-6 h-6 text-fuchsia-800" />
+                Meu Instagram.{" "}
+                <BsInstagram className="instagram w-6 h-6 text-fuchsia-800" />
               </ContentListItem>
               <ContentListItem
                 href="https://twitter.com/kalliadranoth"
@@ -385,7 +386,10 @@ export const NavMenu = () => {
               >
                 <BsWhatsapp className="text-green-500" />
               </ContentListItem>
-              <ContentListItem title="Gmail" href="mailto:jeffersonduarte@gmail.com?subject=Olá, podemos conversar?">
+              <ContentListItem
+                title="Gmail"
+                href="mailto:jeffersonduarte@gmail.com?subject=Olá, podemos conversar?"
+              >
                 E-mail para contato.
                 <SiGmail className="text-red-500" />
               </ContentListItem>
@@ -411,9 +415,9 @@ export const NavMenu = () => {
         <NavigationMenuItem>
           <NavigationMenuLink href="https://github.com/jeffersondrs">
             <div className="flex flex-row justify-center items-center">
-              <div>Github</div>
-              <div>
-                <BsGithub className="text-black" />
+              <div className="text-white">Github</div>
+              <div className="text-white mx-2">
+                <BsGithub />
               </div>
             </div>
           </NavigationMenuLink>
