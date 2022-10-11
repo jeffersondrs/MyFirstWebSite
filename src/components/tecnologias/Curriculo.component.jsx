@@ -1,5 +1,6 @@
 import { saveAs } from "file-saver";
 import Curriculo from "../../assets/Curriculo.pdf";
+import Widget from "../Widget/Widget";
 import "./curriculo.styles.scss";
 import {
   HiOutlineChevronDoubleRight,
@@ -27,6 +28,7 @@ export default function Curriculum() {
         </button>
         <HiOutlineChevronDoubleLeft className="text-white setLeft" />
       </div>
+      <Widget />
     </div>
   );
 }

@@ -1,6 +1,7 @@
 import { Outlet } from "react-router-dom";
 import "./Nav.syles.scss";
 import Contato from "./Contact.radix";
+import Widget from "../../components/Widget/Widget"
 
 export default function Navegation() {
   return (
@@ -9,6 +10,7 @@ export default function Navegation() {
     <Contato />
     </div>
       <Outlet />
+      <Widget />
     </>
   );
 }
