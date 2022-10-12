@@ -1,8 +1,7 @@
 import { useState } from "react";
-import { CloseButton } from "../CloseButton";
-import { FeedbackTypeStep } from "./Steps/FeedbackTypeStep";
-import { FeedbackContentStep } from "./Steps/FeedbackContentStep";
-import { FeedbackSuccessStep } from "./Steps/FeedbackSuccessStep";
+import { FeedbackTypeStep } from "./steps/FeedbackTypeStep";
+import { FeedbackContentStep } from "./steps/FeedbackContentStep";
+import { FeedbackSuccessStep } from "./steps/FeedbackSuccessStep";
 import bugImageUrl from "../../../assets/bug.svg";
 import ideaImageUrl from "../../../assets/emoji.svg";
 import thoughtImageUrl from "../../../assets/idea.svg";

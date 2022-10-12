@@ -1,9 +1,9 @@
 import { ArrowArcLeft, ArrowLeft, Camera } from "phosphor-react";
 import React from "react";
 import { FormEvent, useState } from "react";
-import { FeedbackType, feedbackTypes } from "..";
+import { FeedbackType, feedbackTypes } from "../Index";
 import { CloseButton } from "../../CloseButton";
-import { ScreenshotButton } from "../ScreenshotButton";
+import { ScreenshotButton } from "../ScreenShotButton";
 interface FeedbackContentStepProps {
   feedbackType: FeedbackType;
   onFeedbackRestartRequested: () => void;
