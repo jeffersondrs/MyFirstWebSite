@@ -20,6 +20,7 @@
     "@radix-ui/react-icons": "^1.1.1",
     "@radix-ui/react-navigation-menu": "^1.0.0",
     "@stitches/react": "^1.2.8",
+    "esbuild": "^0.15.10",
     "file-saver": "^2.0.5",
     "html2canvas": "^1.4.1",
     "latest-version": "^7.0.0",
