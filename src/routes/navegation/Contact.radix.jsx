@@ -340,13 +340,11 @@ export const NavMenu = () => {
           </NavigationMenuLink>
         </NavigationMenuItem>
         <NavigationMenuItem>
-          <Link to="/about">
-            <NavigationMenuLink>
+          <NavigationMenuLink href="/about">
               <div className="flex flex-row justify-center items-center">
                 <div>About</div>
               </div>
-            </NavigationMenuLink>
-          </Link>
+          </NavigationMenuLink>
         </NavigationMenuItem>
         <NavigationMenuItem>
           <NavigationMenuTrigger>Social Midia</NavigationMenuTrigger>
@@ -388,7 +386,7 @@ export const NavMenu = () => {
               </ContentListItem>
               <ContentListItem
                 title="Gmail"
-                href="mailto:jeffersonduarte@gmail.com?subject=Olá, podemos conversar?"
+                href="mailto:jeffersonduarte@id.uff.br?subject=Olá, podemos conversar?"
               >
                 E-mail para contato.
                 <SiGmail className="text-red-500" />
