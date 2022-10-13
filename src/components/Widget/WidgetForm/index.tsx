@@ -1,39 +1,39 @@
-import { useState } from 'react';
-import bugImageUrl from '../../../assets/bug.svg';
-import ideaImageUrl from '../../../assets/emoji.svg';
-import thoughtImageUrl from '../../../assets/idea.svg';
-import { FeedbackTypeStep } from './steps/FeedbackTypeStep';
-import { FeedbackContentStep } from './steps/FeedbackContentStep';
-import { FeedbackSuccessStep } from './steps/FeedbackSuccessStep';
+import { useState } from "react";
+import bugImageUrl from "../../../assets/bug.svg";
+import ideaImageUrl from "../../../assets/emoji.svg";
+import thoughtImageUrl from "../../../assets/idea.svg";
+import { FeedbackTypeStep } from "./steps/FeedbackTypeStep";
+import { FeedbackContentStep } from "./steps/FeedbackContentStep";
+import { FeedbackSuccessStep } from "./steps/FeedbackSuccessStep";
 
 export const feedbackTypes = {
   BUG: {
-    tittle: 'Problema',
+    tittle: "Problema",
     image: {
       source: bugImageUrl,
-      alt: ' Imagem de um inseto',
+      alt: " Imagem de um inseto",
     },
   },
   IDEA: {
-    tittle: 'Ideia',
+    tittle: "Ideia",
     image: {
       source: ideaImageUrl,
-      alt: ' Imagem de uma Lampada',
-    }
+      alt: " Imagem de uma Lampada",
+    },
   },
   OTHER: {
-    tittle: 'Outro',
+    tittle: "Outro",
     image: {
       source: thoughtImageUrl,
-      alt: 'Imagen de pensamento',
-    }
+      alt: "Imagen de pensamento",
+    },
   },
-}
+};
 
 export type FeedbackType = keyof typeof feedbackTypes;
 
 export function WidgetForm() {
-  const [feedbackType, setFeedbackType] = useState<FeedbackType | null>(null)
+  const [feedbackType, setFeedbackType] = useState<FeedbackType | null>(null);
   const [feedbackSent, setFeedbackSent] = useState(false);
   function handleRestartFeedback() {
     setFeedbackType(null);
@@ -42,27 +42,35 @@ export function WidgetForm() {
 
   return (
     <div className="bg-zinc-900 text-white p-4 relative rounded-2xl mb-3 flex flex-col items-center shadow-lg w-[calc(100vw-2rem)] md:w-auto">
-      { feedbackSent ? (
-        <FeedbackSuccessStep onFeedbackRestartRequested={handleRestartFeedback} />
+      {feedbackSent ? (
+        <FeedbackSuccessStep
+          onFeedbackRestartRequested={handleRestartFeedback}
+        />
       ) : (
         <>
           {!feedbackType ? (
-            <FeedbackTypeStep onFeedbackTypeChanged={setFeedbackType}  />
-        ) : (
+            <FeedbackTypeStep onFeedbackTypeChanged={setFeedbackType} />
+          ) : (
             <FeedbackContentStep
               feedbackType={feedbackType}
               onFeedbackRestartRequested={handleRestartFeedback}
               onFeedbackSent={() => setFeedbackSent(true)}
             />
-        )}
+          )}
         </>
       )}
-        
+
       <footer className="text-xs text-neutral-400">
-        Feito com amor ❤️ por <a className="underline underline-offset-2" href="https://github.com/jeffersondrs">JeffersonDRS</a>
+        Feito com amor ❤️ por{" "}
+        <a
+          className="underline underline-offset-2"
+          href="https://github.com/jeffersondrs"
+        >
+          JeffersonDRS
+        </a>
       </footer>
     </div>
-  )
+  );
 }
 
 // rounded = border-radius
