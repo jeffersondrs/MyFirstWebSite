@@ -340,11 +340,13 @@ export const NavMenu = () => {
           </NavigationMenuLink>
         </NavigationMenuItem>
         <NavigationMenuItem>
-          <NavigationMenuLink href="/contact">
-            <div className="flex flex-row justify-center items-center">
-              <div>Sobre</div>
-            </div>
-          </NavigationMenuLink>
+          <Link to={'/about'}>
+            <NavigationMenuLink>
+              <div className="flex flex-row justify-center items-center">
+                <div>Sobre</div>
+              </div>
+            </NavigationMenuLink>
+          </Link>
         </NavigationMenuItem>
         <NavigationMenuItem>
           <NavigationMenuTrigger>Social Midia</NavigationMenuTrigger>
