@@ -16,5 +16,6 @@ export const Button = styled.button`
   );
   &:hover {
     transform: scale(1.05);
+    transition: ease-in-out 250ms;
   }
 `;
