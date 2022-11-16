@@ -12,7 +12,7 @@ export default function Video() {
           contribuir com a empresa em que eu estiver.
         </p>
       </div>
-      <div className="flex  w-96 h-full items-center flex-col m-3">
+      <div className="flex w-96 h-full items-center flex-col m-3">
         <div className="flex flex-row flex-wrap justify-evenly items-center">
           <SiJavascript className="bg-black text-yellow-400 xl:w-20 xl:h-20 lg:w-16 lg:h-16 md:w-12 md:h-12 sm:w-10 sm:h-10 w-10 h-10" />
           <SiReact className="text-sky-400  react-icon xl:w-20 xl:h-20 lg:w-16 lg:h-16 md:w-12 md:h-12 sm:w-10 sm:h-10 w-10 h-10" />
@@ -33,7 +33,7 @@ export default function Video() {
 
           <img
             src="https://www.vectorlogo.zone/logos/mongodb/mongodb-ar21.svg"
-            className="xl:w-20 xl:h-20 lg:w-16 lg:h-16 md:w-12 md:h-12 sm:w-10 sm:h-10 w-10 h-10 "
+            className="xl:w-28 xl:h-20 lg:w-24 lg:h-16 md:w-20 md:h-12 sm:w-14 sm:h-10 w-16 h-10 "
           />
           <img
             src="https://www.svgrepo.com/show/303205/html-5-logo.svg"

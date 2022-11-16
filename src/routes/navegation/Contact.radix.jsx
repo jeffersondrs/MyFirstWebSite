@@ -340,9 +340,9 @@ export const NavMenu = () => {
           </NavigationMenuLink>
         </NavigationMenuItem>
         <NavigationMenuItem>
-          <NavigationMenuLink href="/about">
+          <NavigationMenuLink href="/contact">
             <div className="flex flex-row justify-center items-center">
-              <div>About</div>
+              <div>Sobre</div>
             </div>
           </NavigationMenuLink>
         </NavigationMenuItem>

@@ -21,6 +21,7 @@ export function FeedbackContentStep({
     console.log({ screenshot, comment });
     onFeedbackSent();
   }
+  console.log(screenshot);
   return (
     <>
       <header>
