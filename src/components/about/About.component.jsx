@@ -3,12 +3,12 @@ import "./about.styles.scss";
 
 export default function About() {
   return (
-    <div className="w-full text-white justify-evenly flex flex-row p-6 flex-wrap-reverse">
+    <div className="container text-white justify-evenly flex flex-row p-6 flex-wrap-reverse">
       <div className="w-96 p-1 flex flex-col justify-center items-center rounded-xl">
         <h1 className="text-xl text-center typetext my-2">
           Meu nome é Jefferson
         </h1>
-        <h2 className=" text-center">seja bem vindo ao meu portfolio</h2>
+        <h2 className="text-center">seja bem vindo ao meu portfolio</h2>
         <p className="text-center p-2">
           EStudante de programação e graduando em análise e desenvolvimento de
           sistemas, em busca da primeira oportunidade. <br></br> Espero que

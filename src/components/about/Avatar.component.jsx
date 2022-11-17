@@ -3,7 +3,7 @@ import './about.styles.scss'
 
 export default function Avatar() {
   return (
-    <div className="w-64 cursor-pointer box-border">
+    <div className="container cursor-pointer box-border">
       <a href='https://github.com/jeffersondrs'>
         <BigHead
           accessory="none"

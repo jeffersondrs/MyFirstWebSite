@@ -3,7 +3,7 @@ import "./project.style.scss";
 
 export default function Project() {
   return (
-    <div className="w-full h-full background-projects mt-10">
+    <div className="container bg-slate-500/10 my-2">
       <div className="flex flex-row p-5 justify-evenly items-center flex-wrap">
         <div className=" flex justify-center items-center m-2">
           <a href="https://github.com/jeffersondrs/StoreClothings">

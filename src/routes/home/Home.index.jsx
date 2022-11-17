@@ -5,7 +5,7 @@ import Video from "../../components/videocomponent/Video.component";
 
 export default function Home() {
   return (
-    <div>
+    <div className="container">
       <About />
       <Video />
       <Projects />
