@@ -18,7 +18,5 @@ body {
     rgba(31, 22, 130, 1) 56%,
     rgba(39, 4, 87, 1) 94%
   );
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  
 }

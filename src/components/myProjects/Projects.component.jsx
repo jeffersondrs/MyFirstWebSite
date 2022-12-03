@@ -3,7 +3,7 @@ import "./project.style.scss";
 
 export default function Project() {
   return (
-    <div className="container bg-slate-500/10 my-2">
+    <div className=" bg-slate-500/10 my-2">
       <div className="flex flex-row p-5 justify-evenly items-center flex-wrap">
         <div className=" flex justify-center items-center m-2">
           <a href="https://github.com/jeffersondrs/StoreClothings">
@@ -15,19 +15,27 @@ export default function Project() {
           </a>
         </div>
         <div className="bg-black/20 p-2 flex flex-col justify-center items-center text-white w-[550px]">
-          <p className="text-center text-lg underline m-2">
-            Projeto em andamento, feito em react, utilizando tecnologias como:
+          <p className="text-center text-lg m-2">
+            Projeto E-commerce website:
           </p>
-          <p className="text-lg text-center">
-            <p>SASS e TailwindCss para e estilização</p>
-            <p>Firebase para Autenticação e login de usuários</p>
-            <p>REact-Icons para criação de icones de menus e botões</p>
-            <p>react router dom para navegação entre componentes</p>
-          </p>
-          <Button
-            text={"repositório"}
-            link={"https://github.com/jeffersondrs/StoreClothings"}
-          />
+
+          <ul>
+            <li>Biblioteca React</li>
+            <li>SASS e TailwindCss para estilização</li>
+            <li>Firebase para Autenticação e login de usuários</li>
+            <li>REact-Icons para criação de ícones do menu e botões</li>
+            <li>react router dom para navegação entre componentes</li>
+          </ul>
+          <div className="flex flex-row w-64 justify-center items-center">
+            <Button
+              text={"repositório"}
+              link={"https://github.com/jeffersondrs/StoreClothings"}
+            />
+            <Button
+              text={"deploy"}
+              link={"https://clothesbr-ecommerce.netlify.app/"}
+            />
+          </div>
         </div>
       </div>
       <div className="flex flex-row p-5 justify-evenly items-center flex-wrap">
@@ -41,21 +49,27 @@ export default function Project() {
           </a>
         </div>
         <div className="bg-black/20 p-2 flex flex-col justify-center items-center text-white w-[550px]">
-          <p className="text-center text-lg underline m-2">
-            Projeto em React utilizando tencnologias:
+          <p className="text-center text-lg m-2">
+            Projeto em json monsters:
           </p>
-          <p className="text-lg text-center">
-            <p>TailwindCss para e estilização</p>
-            <p>Utilização de hooks useState e UseEffect</p>
-            <p>Comsumindo Api externa</p>
-          </p>
-          <Button
-            text={"repositório"}
-            link={"https://github.com/jeffersondrs/monster-rolodex"}
-          />
+          <ul>
+            <li>TailwindCss para e estilização</li>
+            <li>Utilização de hooks useState e UseEffect</li>
+            <li>Comsumindo Api externa</li>
+          </ul>
+          <div className="flex flex-row w-64 justify-center items-center">
+            <Button
+              text={"repositório"}
+              link={"https://github.com/jeffersondrs/monster-rolodex"}
+            />
+            <Button
+              text={"deploy"}
+              link={"https://main--monstersjson.netlify.app/"}
+            />
+          </div>
         </div>
-        </div>
-        <div className="flex flex-row p-5 justify-evenly items-center flex-wrap">
+      </div>
+      <div className="flex flex-row p-5 justify-evenly items-center flex-wrap">
         <div className=" flex justify-center items-center m-2">
           <a href="https://github.com/jeffersondrs/MyBlog">
             <img
@@ -65,22 +79,30 @@ export default function Project() {
             />
           </a>
         </div>
-        <div className=" bg-black/20 p-2 flex flex-col justify-center items-center text-white w-[550px]">
-          <p className="text-center text-lg underline m-2">
-            Projeto em React com framework Nextjs:
-          </p>
-          <p className="text-lg text-center">
-            <p>TailwindCss e Sass para estilização</p>
-            <p>Utilização de hooks useState, useRef, useContext e UseEffect</p>
-            <p>GRaphQl and GraphCms para back end</p>
-          </p>
-          <Button
-            text={"repositório"}
-            link={"https://github.com/jeffersondrs/MyBlog"}
-          />
+        <div className="bg-black/20 p-2 flex flex-col justify-center items-center text-white w-[550px]">
+          <p className="text-center text-lg m-2">Projeto Blog pessoal:</p>
+          <ul>
+            <li>Biblioteca React</li>
+            <li>framework Nextjs</li>
+            <li>TailwindCss e Sass para estilização</li>
+            <li>
+              Utilização de hooks useState, useRef, useContext e UseEffect
+            </li>
+            <li>GRaphQl e GraphCms para back-end</li>
+          </ul>
+          <div className="flex flex-row w-64 justify-center items-center">
+            <Button
+              text={"repositório"}
+              link={"https://github.com/jeffersondrs/MyBlog"}
+            />
+            <Button
+              text={"deploy"}
+              link={"https://my-blog-jeffersondrs.vercel.app/"}
+            />
+          </div>
         </div>
-        </div>
-        <div className="flex flex-row p-5 justify-evenly items-center flex-wrap">
+      </div>
+      <div className="flex flex-row p-5 justify-evenly items-center flex-wrap">
         <div className=" flex justify-center items-center m-2">
           <a href="https://github.com/jeffersondrs/TodoList-React">
             <img
@@ -91,21 +113,28 @@ export default function Project() {
           </a>
         </div>
         <div className="bg-black/20 p-2 flex flex-col justify-center items-center text-white w-[550px]">
-          <p className="text-center text-lg underline m-2">
-            Projeto em React:
-          </p>
-          <p className="text-lg text-center">
-            <p>TailwindCss para estilização</p>
-            <p>Utilização de hooks useState</p>
-            <p>Projeto ainda em desenvolvimento e para utilização de novas tecnologias em conjunto</p>
-          </p>
-          <Button
-            text={"repositório"}
-            link={"https://github.com/jeffersondrs/TodoList-React"}
-          />
+          <p className="text-center text-lg m-2">Projeto Todo-list</p>
+          <ul>
+            <li>REact</li>
+            <li>TailwindCss para estilização</li>
+            <li>Utilização de hooks useState</li>
+            <li>
+              Projeto ainda em desenvolvimento e para utilização de novas
+              tecnologias em conjunto
+            </li>
+          </ul>
+          <div className="flex flex-row w-64 justify-center items-center">
+            <Button
+              text={"repositório"}
+              link={"https://github.com/jeffersondrs/TodoList-React"}
+            />
+            <Button
+              text={"deploy"}
+              link={"https://my-blog-jeffersondrs.vercel.app/"}
+            />
+          </div>
         </div>
-        </div>
-        
+      </div>
     </div>
   );
 }

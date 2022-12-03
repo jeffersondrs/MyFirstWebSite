@@ -3,13 +3,10 @@ import "./vide.style.scss";
 
 export default function Video() {
   return (
-    <div className="flex flex-row flex-wrap container items-center justify-evenly tech-container text-white p-8">
+    <div className="flex flex-row flex-wrap  items-center justify-evenly tech-container text-white p-8">
       <div className="w-96 h-full">
         <p className="text-center xl:text-xl lg:text-xl md:text-base sm:text-sm p-1">
-          Este é meu site/portifólio, aqui tentarei expressar minhas habilidades
-          e mostrar meu trabalho na forma prática, pois venho estudando a algum
-          tempo e quero ter uma oportunidade para contribuir em projetos e
-          contribuir com a empresa em que eu estiver.
+          Este é meu site/portifólio, aqui tentarei expressar minhas habilidades, mostrar meu trabalho e garantir que estou conseguindo pôr em prática tudo que venho aprendendo com meus estudos.
         </p>
       </div>
       <div className="flex w-96 h-full items-center flex-col m-3">
@@ -49,7 +46,7 @@ export default function Video() {
           />
         </div>
         <div className="text-center mt-5">
-          <p>tecnologias que utilizo no meu dia a dia</p>
+          <p className="text-sm">tecnologias que mais utilizo no meu dia a dia</p>
         </div>
       </div>
     </div>
