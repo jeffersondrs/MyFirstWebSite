@@ -15,16 +15,16 @@ export default function Project() {
           </a>
         </div>
         <div className="bg-black/20 p-2 flex flex-col justify-center items-center text-white w-[550px]">
-          <p className="text-center text-lg m-2">
+          <h1 className="text-center text-xl m-2">
             Projeto E-commerce website:
-          </p>
+          </h1>
 
-          <ul>
+          <ul className="text-sm italic">
             <li>Biblioteca React</li>
-            <li>SASS e TailwindCss para estilização</li>
-            <li>Firebase para Autenticação e login de usuários</li>
-            <li>REact-Icons para criação de ícones do menu e botões</li>
-            <li>react router dom para navegação entre componentes</li>
+            <li>Sass e TailwindCss para estilização</li>
+            <li>Firebase para autenticação e login de usuários</li>
+            <li>React-icons para criação de ícones do menu e botões</li>
+            <li>React-router-dom para navegação entre componentes</li>
           </ul>
           <div className="flex flex-row w-64 justify-center items-center">
             <Button
@@ -49,10 +49,10 @@ export default function Project() {
           </a>
         </div>
         <div className="bg-black/20 p-2 flex flex-col justify-center items-center text-white w-[550px]">
-          <p className="text-center text-lg m-2">
-            Projeto em json monsters:
+          <p className="text-center text-xl m-2">
+            Projeto em Json Monsters:
           </p>
-          <ul>
+          <ul className="text-sm italic">
             <li>TailwindCss para e estilização</li>
             <li>Utilização de hooks useState e UseEffect</li>
             <li>Comsumindo Api externa</li>
@@ -80,15 +80,15 @@ export default function Project() {
           </a>
         </div>
         <div className="bg-black/20 p-2 flex flex-col justify-center items-center text-white w-[550px]">
-          <p className="text-center text-lg m-2">Projeto Blog pessoal:</p>
-          <ul>
+          <h1 className="text-center text-xl m-2">Projeto Blog pessoal:</h1>
+          <ul className="text-sm italic">
             <li>Biblioteca React</li>
-            <li>framework Nextjs</li>
+            <li>Framework Nextjs</li>
             <li>TailwindCss e Sass para estilização</li>
             <li>
-              Utilização de hooks useState, useRef, useContext e UseEffect
+              Hooks useState, useRef, useContext e UseEffect
             </li>
-            <li>GRaphQl e GraphCms para back-end</li>
+            <li>GraphQl e GraphCms para back-end</li>
           </ul>
           <div className="flex flex-row w-64 justify-center items-center">
             <Button
@@ -113,14 +113,13 @@ export default function Project() {
           </a>
         </div>
         <div className="bg-black/20 p-2 flex flex-col justify-center items-center text-white w-[550px]">
-          <p className="text-center text-lg m-2">Projeto Todo-list</p>
-          <ul>
-            <li>REact</li>
+          <h1 className="text-center text-xl m-2">Projeto Todo-list</h1>
+          <ul className="text-sm italic">
+            <li>React</li>
             <li>TailwindCss para estilização</li>
             <li>Utilização de hooks useState</li>
             <li>
-              Projeto ainda em desenvolvimento e para utilização de novas
-              tecnologias em conjunto
+              Projeto ainda em desenvolvimento...
             </li>
           </ul>
           <div className="flex flex-row w-64 justify-center items-center">
