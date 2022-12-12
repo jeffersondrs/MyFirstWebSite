@@ -3,7 +3,7 @@ import "./about.styles.scss";
 
 export default function About() {
   return (
-    <div className="container text-white justify-evenly flex flex-row p-6 flex-wrap-reverse">
+    <div className="text-white justify-evenly flex flex-row p-6 flex-wrap-reverse">
       <div className="w-96 p-1 flex flex-col justify-center items-center rounded-xl">
         <h1 className="text-xl text-center typetext my-2">
           Meu nome é Jefferson

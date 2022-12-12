@@ -5,8 +5,8 @@ import Widget from "../../components/Widget/Widget";
 
 export default function Navegation() {
   return (
-    <div className="container">
-      <div className="bg-black container flex flex-row items-center justify-center p-2">
+    <div>
+      <div className="bg-black flex flex-row items-center justify-center p-2">
         <Contato />
         </div>
         <Outlet />
